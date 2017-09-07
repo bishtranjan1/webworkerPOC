@@ -1,0 +1,19 @@
+<div class="container">
+
+  <div class="jumbotron text-center">
+       WEB worker 
+       <button class="btn btn-primary" ng-click="main.getData('worker')">get data</button>
+       <div class="resultWebWorker">Result is ={{main.webworkerData}}</div>
+       <div ng-click="main.stopWorker()">stopWorker</div>
+  </div>
+     
+  <div class="jumbotron text-center">
+       Non WEB worker
+        <button class="btn btn-primary" ng-click="main.getData('Nonworker')">get data</button>
+        <div class="resultNonWorker">Result is ={{main.nonwebworkerData}}</div>
+  </div>
+
+
+
+
+</div>
